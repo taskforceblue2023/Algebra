@@ -10,6 +10,22 @@ export default {
       loggingEnabled: false,
       evm: 'paris',
     },
+    ganache: {
+      url: 'http://localhost:7545',
+      chainId: 1337,
+      accounts: [
+        '0x810176d2c3a83101086ee2f2058b5d61f86e9d3e33ce5d1319669f3defb8d246',
+        '0x37231d2e7f5ca6c3daf3447b59594e0577ae6daabfa80536f815720cf1a1cf6f',
+        '0x2ea6a0d5e94854c1f44c551f15383feaf39a61af5d9b98eec6568315d3189cba',
+        '0xe19ed647e726d84eeffb5f1606c14daf046d3c9bf02cfed611fe7346178dd84c',
+        '0x8283d1957ecea2b7a4ab3fd217246673499b04a172706ee760cf6cced8736074',
+        '0x92c02f9a9257ffb57480fc9d6773101520417dc402454f9b1086bbb6bdbd1ca4',
+        '0x79f2d5839a2eb929a6eeba76d8b530453c387acbc1794b0f4b3c022e410cc3f8',
+        '0x1b9731450c329f0c837d98e1036aea69102029eb6bbe2d3598c26ca531452626',
+        '0xe31b1dc911cccec546b919811e8cb7ad8dfabfafa5c1447da50eb28bc0d8d678',
+        '0x2ed754bef36e55e97bc3aa45f3f77cc5225f546d4b3d3ffe094e4950a1ed79a5',
+      ]
+    },
     localHardhat: {
       url: `http://127.0.0.1:8545`,
       accounts: ['0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80'],
